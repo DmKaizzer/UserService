@@ -1,3 +1,10 @@
 spring:
   application:
     name: UserService
+  datasource:
+    url: jdbc:postgresql://localhost:5432/userdatabase
+    password: pastgresspsw
+    username: postgresuser
+  jpa:
+    hibernate:
+      ddl-auto: update
